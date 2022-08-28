@@ -72,4 +72,42 @@ hr {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   text-shadow: var(--shadow-default);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonial */
+
+#testimonial-footer {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  height: 8rem;
+  background-color: var(--primary-lighter);
+}
+
+#testimonial-footer figure {
+  padding-top: 2rem;
+}
+
+blockquote,
+figcaption {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* About the planner */
+
+#about-the-planner {
+  padding: 2rem;
+}
+
+#pic-planner {
+  width: 50rem;
+  margin-right: 10rem;
+  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.2));
+}
+
+#text-planner {
+  width:40rem;
+  margin-top: -8rem;
+  margin-left: 20rem;
+  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.2));
 }
