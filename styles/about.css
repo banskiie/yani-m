@@ -106,8 +106,30 @@ figcaption {
 }
 
 #text-planner {
-  width:40rem;
+  width: 40rem;
   margin-top: -8rem;
   margin-left: 20rem;
   filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.2));
+}
+
+/* About the team */
+
+#about-the-team {
+  margin-bottom: 2rem;
+}
+
+#about-the-team img {
+  width: 60rem;
+  height: 24rem;
+  object-fit: cover;
+  margin: 2rem;
+  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.2));
+}
+
+#about-the-team p {
+  font-family: "Montserrat", sans-serif;
+  width: 40rem;
+  text-align: justify;
+  color: var(--primary-dark);
+  text-shadow: var(--shadow-default);
 }

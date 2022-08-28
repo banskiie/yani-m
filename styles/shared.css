@@ -98,6 +98,7 @@ hr {
 }
 
 #motto-text {
+  font-family: "Montserrat", sans-serif;
   text-align: justify;
   width: 25rem;
   font-size: 0.75rem;
