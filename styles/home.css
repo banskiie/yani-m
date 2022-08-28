@@ -1,7 +1,7 @@
 /* Home Image Carousel */
 
 #home-carousel {
-  margin: 1rem;
+  margin: 2rem auto 4rem auto;
   width: 90rem;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }

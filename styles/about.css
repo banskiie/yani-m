@@ -1,0 +1,48 @@
+/* About Intro Section */
+
+#about-intro {
+  margin: 2rem auto;
+}
+
+#intro-img {
+  width: 90rem;
+}
+
+#intro-img img {
+  width: 90rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+#about-intro h2 {
+  color: whitesmoke;
+  margin: -13rem;
+  font-family: "Lora", sans-serif;
+  text-align: center;
+  filter: opacity(0.8);
+  font-size: 12rem;
+  text-shadow: var(--shadow-default);
+}
+
+/* Company Description */
+
+#company-desc {
+  margin: 2rem auto;
+  width: 70rem;
+}
+
+#company-desc img {
+  height: 6rem;
+  filter: drop-shadow(var(--shadow-default));
+}
+
+#company-desc .vr {
+  margin: 0 2rem;
+}
+
+#company-desc .p {
+  font-family: "Montserrat", sans-serif;
+  width: 35rem;
+  text-align: justify;
+  text-shadow: var(--shadow-default);
+}

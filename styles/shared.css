@@ -26,7 +26,6 @@ a {
   background-color: var(--primary);
   padding: 0.5rem;
   transition: 0.2s;
-  position: sticky;
 }
 
 #inq-head:hover {
@@ -34,7 +33,7 @@ a {
 }
 
 #inq-head a {
-  color: white;
+  color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
@@ -135,4 +134,3 @@ a {
   background-color: var(--primary-dark);
   color: whitesmoke;
 }
-
