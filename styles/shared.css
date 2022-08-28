@@ -83,6 +83,22 @@ a {
   transition: 0.2s;
 }
 
+/* Motto Footer */
+
+#motto-logo {
+  width: 8rem;
+  margin: auto 1rem;
+  filter: drop-shadow(var(--shadow-default));
+}
+
+#motto-text {
+  text-align: justify;
+  width: 25rem;
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+  color: gray;
+}
+
 /* Contact Footer */
 
 #contact-footer {
