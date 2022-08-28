@@ -45,7 +45,6 @@ hr {
 
 #meet-team-btn:hover {
   background-color: var(--primary-light);
-  transform: scale(1.02);
 }
 
 /* Services Section */
