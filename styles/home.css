@@ -11,13 +11,6 @@
   object-fit: cover;
 }
 
-/* Horizontal Line Attribute */
-
-hr {
-  width: 80rem;
-  margin: 0 auto;
-}
-
 /* Home Intro Section */
 
 #home-intro-section {

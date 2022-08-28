@@ -20,6 +20,12 @@ a {
   text-decoration: none;
 }
 
+
+hr {
+  width: 80rem;
+  margin: 0 auto;
+}
+
 /* Inquire Header */
 
 #inq-head {
