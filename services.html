@@ -27,8 +27,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/styles/shared.css" />
     <link rel="stylesheet" href="/styles/services.css" />
+    <link rel="stylesheet" href="/styles/contact.css">
     <!-- Custom JS -->
-    <script src="/scripts/shared.js" defer></script>
+    <script src="/scripts/script.js" defer></script>
     <title>Yani M | Wedding and Event Coordinating Services</title>
   </head>
   <body>
@@ -103,7 +104,100 @@
       </div>
       <div><h2>Services</h2></div>
     </div>
+
+    <div
+      id="main-desc"
+      class="container-fluid d-flex flex-column align-items-center justify-content-center"
+    >
+      <div id="main-desc-text">
+        <p>
+          Just got engaged and no idea of what to do next? We got you covered!
+          Our team will provide you the service to get everything started from
+          scratch to finish.
+        </p>
+        <p>You deserve the best hassle-free wedding experience!</p>
+      </div>
+    </div>
+
+    <div
+      id="services-tab"
+      class="container-fluid d-flex flex-column align-items-center justify-content-center"
+    >
+      <h1>Our Offerings</h1>
+      <div
+        class="container-fluid d-flex flex-row align-items-center justify-content-center"
+      >
+        <div
+          id="intima-boda-card"
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="/images/services/intima-boda.jpg" alt="" />
+          <p id="intima-boda-title">intima boda</p>
+        </div>
+        <div
+          id="full-card"
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="/images/services/full.jpg" alt="" />
+          <p id="full-title">full day</p>
+        </div>
+        <div
+          id="otd-card"
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="/images/services/otc.jpg" alt="" />
+          <p id="otd-title">on-the-day</p>
+        </div>
+      </div>
+    </div>
+
     <hr />
+
+    <div
+      id="details"
+      class="container-fluid d-flex flex-column align-items-center justify-content-center"
+    >
+      <img src="/images/service-details/pricing.png" alt="" />
+      <img src="/images/service-details/full-otc-details.png" alt="" />
+      <img src="/images/service-details/intima-boda-details.png" alt="" />
+    </div>
+
+    <hr />
+
+    <div
+      id="contact-section"
+      class="container-fluid d-flex flex-row align-items-center justify-content-center"
+    >
+      <div class="col d-flex align-items-center justify-content-center">
+        <img src="/images/services/intima-boda.jpg" alt="" />
+      </div>
+      <div
+        id="contact-form"
+        class="col d-flex flex-column align-items-center justify-content-center"
+      >
+        <h2>Get in touch</h2>
+        <form>
+          <div class="d-flex flex-column">
+            <label for="">First Name</label><input type="text" />
+          </div>
+          <div class="d-flex flex-column">
+            <label for="">Last Name</label><input type="text" />
+          </div>
+          <div class="d-flex flex-column">
+            <label for="">Email</label><input type="email" />
+          </div>
+          <div class="d-flex flex-column">
+            <label for="">Mobile Number</label><input type="tel" />
+          </div>
+          <div class="d-flex flex-column">
+            <label for="">Message</label><textarea name="" id=""></textarea>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <div
       id="motto-footer"
