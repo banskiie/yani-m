@@ -1,0 +1,19 @@
+{
+  "name": "yani-m-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banskiie/yani-m.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banskiie/yani-m/issues"
+  },
+  "homepage": "https://github.com/banskiie/yani-m#readme"
+}
